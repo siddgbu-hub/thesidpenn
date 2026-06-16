@@ -1,0 +1,9 @@
+name = "thesidpen-nextjs"
+compatibility_date = "2024-06-01"
+pages_build_output_dir = "out"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "thesidpen_db"
+database_id = "fbc49e9e-a6f1-49fe-9fb4-8df4bfe9c0e5"
+preview_database_id = "local-dev-id"
