@@ -22,7 +22,7 @@ export default function AdminDashboard() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const API_BASE = process.env.NODE_ENV === "development" ? "http://127.0.0.1:8788" : "https://thesidpen-nextjs.pages.dev";
+  const API_BASE = process.env.NODE_ENV === "development" ? "http://127.0.0.1:8788" : "https://thesidpenn.pages.dev";
 
   const login = (e: React.FormEvent) => {
     e.preventDefault();

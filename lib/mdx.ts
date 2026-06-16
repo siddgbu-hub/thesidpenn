@@ -3,7 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 
 const contentDirectory = path.join(process.cwd(), "content");
-const API_BASE = process.env.NODE_ENV === "development" ? "http://127.0.0.1:8788" : "https://thesidpen-nextjs.pages.dev";
+const API_BASE = process.env.NODE_ENV === "development" ? "http://127.0.0.1:8788" : "https://thesidpenn.pages.dev";
 
 export type PostMetadata = {
   title: string;
